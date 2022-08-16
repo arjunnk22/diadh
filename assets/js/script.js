@@ -5,16 +5,16 @@ const nav = document.getElementById('navbar');
 
 if(ham) {
     ham.addEventListener('click', () => {
-        nav.classList.add('active');
-        closebtn.classList.add('active');
+        nav.classList.add('left-0');
+        closebtn.classList.add('left-0');
     });
     
 }
 
 if(closebtn) {
     closebtn.addEventListener('click', () => {
-        nav.classList.remove('active');
-        closebtn.classList.remove('active');
+        nav.classList.remove('left-0');
+        closebtn.classList.remove('left-0');
     });
     
 }
