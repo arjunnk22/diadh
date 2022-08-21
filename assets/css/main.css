@@ -4,4 +4,6 @@
   }
 * {
     font-family: 'Futura Book', 'sans-serif';
+    margin: 0;
+    padding: 0;
 }

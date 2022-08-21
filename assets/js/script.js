@@ -20,15 +20,31 @@ if(closebtn) {
 }
 
 
-window.onscroll = function() {stickyHeader()};
-var header = document.getElementById("header");
-var sticky = header.offsetTop;
-function stickyHeader() {
-  if (window.pageYOffset > sticky) {
-    header.classList.add("fixed");
-    header.classList.add("top-0");
-  } else {
-    header.classList.remove("fixed");
-    header.classList.remove("top-0");
-  }
+// window.onscroll = function() {stickyHeader()};
+// var header = document.getElementById("header");
+// var sticky = header.offsetTop;
+// function stickyHeader() {
+//   if (window.pageYOffset > sticky) {
+//     header.classList.add("fixed");
+//     header.classList.add("top-0");
+//   } else {
+//     header.classList.remove("fixed");
+//     header.classList.remove("top-0");
+//   }
+// }
+
+
+var nowactive = false;
+
+
+const pt1 = document.getElementById('producttab-1');
+
+const pt2 = document.getElementById('producttab-2');
+
+const next = document.getElementById('btnnext');
+const prev = document.getElementById('btnprev');
+
+
+if(!nowactive) {
+  pt2.classList
 }
